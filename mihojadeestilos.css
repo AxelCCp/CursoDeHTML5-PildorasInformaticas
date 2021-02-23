@@ -1,0 +1,50 @@
+@charset "utf-8";
+/*css document*/
+
+/*
+header{
+	background-color:green;
+}
+
+body{
+	background-color:yellow;
+}
+*/
+
+#cabeceraWeb{
+	background-color:aqua;
+}
+
+
+#navegacionPrincipal{
+	background-color:yellow;
+}
+
+
+#barraLateral{
+	background-color:#87CEFA;
+	float:left;                         /*PONEMOS LA BARRA A LA IZQUIERDA */
+	height:1180px;						/*LARGO DE LA BARRA VERTICAL */
+}
+
+
+#contenidoPrincipal{
+	background-color:#F0F8FF;
+	margin-left:210px;					/*DAMOS UN MARGE DE SEPARACIÓN RESPECTO A LA BARRA VERTICAL*/
+	padding-left: 10px;					/*SEPARACIÓN DE LAS LETRAS RESPECTO AL BORDE IZQUIERDO EN LA SECCIÓN*/
+	padding-top: 2px;					/*SEPARACIÓN DE LAS LETRAS RESPECTO AL BORDE SUPERIOR EN LA SECCIÓN*/
+}
+
+
+#piePrincipal{
+	background-color:#D3D3D3;
+	clear:both;
+	margin-top:30px;    				/*SEPARACION CON EL CON EL CONTENIDO DE ARRIBA*/
+}
+
+
+li{
+	background-color:#DCDCDC;
+	display:inline;   					/*ALINEAMOS HORIZONTALMENTE EL MENÚ DE LA BARRA SUPERIOR DE OPCIONES*/
+	padding:10px;
+}
